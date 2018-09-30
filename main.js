@@ -55,12 +55,7 @@ $(element).each(function(){
     $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
 });
-//Navbar Dropdown onHover action.
-$(".dropdown-trigger").dropdown();
-}
 //Modal Trigger
-var instance = M.Modal.getInstance(elem);
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, options);
-  });
+$(".modal").modal();
+
+}
