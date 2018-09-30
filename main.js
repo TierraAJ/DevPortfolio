@@ -57,5 +57,10 @@ $(element).each(function(){
 });
 //Navbar Dropdown onHover action.
 $(".dropdown-trigger").dropdown();
-
 }
+//Modal Trigger
+var instance = M.Modal.getInstance(elem);
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
