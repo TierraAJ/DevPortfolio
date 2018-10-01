@@ -99,15 +99,30 @@ div.row{
 span.card-title{
     margin-top: 20px;
 }
+.modal{
+    height: 95%;
+    width: 95%;
+}
+.modal-content{
+    height: 80%;
+    width: 85%;
+    padding: 80px;
+}
+.modal-footer{
+    padding: 15px;
+    margin: 20px;
+}
 .fab{
     font-size: 30px;
     margin: 10px;
     text-align: center;
+    color: white;
 }
 .far{
     font-size: 30px;
     margin: 10px;
     text-align: center;
+    color: white;
 }
 footer{
     height: 70px;
