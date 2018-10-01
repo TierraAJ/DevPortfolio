@@ -1,4 +1,3 @@
-
   // jQuery is required to run this code
 $( document ).ready(function() {
 scaleVideoContainer();
@@ -12,7 +11,6 @@ $(window).on('resize', function() {
     scaleBannerVideoSize('.video-container .poster img');
     scaleBannerVideoSize('.video-container .filter');
     scaleBannerVideoSize('.video-container video');
-});
 });
 
 function scaleVideoContainer() {
@@ -55,7 +53,8 @@ $(element).each(function(){
     $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
 });
+}
+
 //Modal Trigger
 $(".modal").modal();
-
-}
+});
