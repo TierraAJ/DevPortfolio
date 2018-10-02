@@ -17,10 +17,9 @@ url("assets/worthwhile-webfont.eot");
     left: 30%;
     top: 30%;
 }
-.homepage-hero-module {
-/* border-right: none;
-border-left: none; */
+div.homepage-hero-module {
 position: relative;
+height: 550px!important;
 }
 .no-video .video-container video,
 .touch .video-container video {
