@@ -1,5 +1,10 @@
   // jQuery is required to run this code
 $( document ).ready(function() {
+$(".scrollspy").scrollSpy();
+$(".scrollspy").scrollSpy({
+    scrollOffset: 200
+});
+
 scaleVideoContainer();
 
 initBannerVideoSize('.video-container .poster img');

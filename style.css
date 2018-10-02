@@ -70,11 +70,13 @@ body {
 main {
 flex: 1 0 auto;
 }
-#second{
+#aboutme-sec{
     text-align: center;
     padding: 20px;
     margin: 0;
     background-color: #CCCCCC;
+    /* background: url("assets/halftone.png");
+    background-repeat: no-repeat;  */
 }
 #c-profile-pic{
     height:200px;
@@ -86,7 +88,7 @@ h1{
     padding: 20px;
     padding-bottom: 80px;
 }
-#third{
+#projects-sec{
     text-align: center;
     padding: 20px;
     margin: 0;
@@ -111,8 +113,10 @@ span.card-title{
     padding: 15px;
     margin: 20px;
 }
-#forth{
+#contact-sec{
     margin-top: 30px;
+    padding: 50px;
+    background-color: #fff;
 }
 .fab{
     font-size: 30px;
@@ -129,4 +133,8 @@ span.card-title{
 footer{
     height: 70px;
     background-color: #0F292F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 300;
 }
