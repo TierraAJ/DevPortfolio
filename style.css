@@ -12,11 +12,20 @@ url("assets/worthwhile-webfont.eot");
     background-color: rgb(255, 255, 255, 0);
     font-size: 120px;
     position: absolute;
-    margin: auto;
+    margin: 20px;
     color: white;
     z-index: 200;
     left: 30%;
     top: 30%;
+}
+h1{
+    font-family: 'myFancyFont';
+    padding: 20px;
+    padding-bottom: 15px;
+    font-size: 100px !important;
+}
+h5{
+    text-align: center;
 }
 div.homepage-hero-module {
 position: relative;
@@ -87,10 +96,6 @@ flex: 1 0 auto;
     width:100px;
     border-radius:50%;
     margin-top: 30px;
-}
-h1{
-    padding: 20px;
-    padding-bottom: 80px;
 }
 #projects-sec{
     text-align: center;
