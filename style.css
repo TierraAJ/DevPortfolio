@@ -132,7 +132,8 @@ span.card-title{
 }
 footer{
     height: 70px;
-    background-color: #0F292F;
+    background-color: #501F38 !important;
+    opacity: 0.9;
     position: fixed;
     bottom: 0;
     width: 100%;

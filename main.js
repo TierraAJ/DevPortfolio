@@ -1,9 +1,9 @@
   // jQuery is required to run this code
 $( document ).ready(function() {
-$(".scrollspy").scrollSpy();
-$(".scrollspy").scrollSpy({
-    scrollOffset: 200
-});
+// $(".scrollspy").scrollSpy();
+// $(".scrollspy").scrollSpy({
+//     scrollOffset: 180
+// });
 
 scaleVideoContainer();
 
