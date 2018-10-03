@@ -92,10 +92,19 @@ flex: 1 0 auto;
     background-repeat: no-repeat;  */
 }
 #c-profile-pic{
-    height:200px;
-    width:100px;
-    border-radius:50%;
+    height: 450px;
+    width: 400px;
+    border-radius: 40%;
     margin-top: 30px;
+}
+#para1{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+#para2{
+    background-color: #fff;
+    padding: 20px;
 }
 #projects-sec{
     text-align: center;
