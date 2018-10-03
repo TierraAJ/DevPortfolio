@@ -1,4 +1,5 @@
 *{
+  font-family: 'Kaushan Script','Courgette', cursive;
 }
 @font-face
 {
@@ -67,7 +68,10 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
-main {
+p{
+  font-family: 'Gentium Basic', serif;
+}
+  main {
 flex: 1 0 auto;
 }
 #aboutme-sec{
