@@ -126,6 +126,11 @@ flex: 1 0 auto;
 div.row{
     margin-bottom: 50px;
 }
+#title3{
+    font-family: 'myFancyFont','Courgette', cursive;
+    color: #6b6868;
+    text-align: center;
+}
 span.card-title{
     margin-top: 20px;
 }
