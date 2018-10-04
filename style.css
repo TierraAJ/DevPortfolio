@@ -9,11 +9,10 @@ url("assets/worthwhile-webfont.eot");
 }
 .brand-logo{
     height: 50px;
-    width:200px;
+    width:100px;
     margin-left: 5px;
     margin-top: 5px; 
-    border-block-end-color: white;
-    box-shadow: 0 0 8px 8px white inset;
+    box-shadow: 1px 2px rgb(226, 141, 155);
 }
 .title { 
     font-family: 'myFancyFont', Times, serif; 
