@@ -5,6 +5,9 @@ $(".scrollspy").scrollSpy({
     scrollOffset: 180
 });
 
+//Side Navbar Trigger
+$(".sidenav").sidenav();
+
 scaleVideoContainer();
 
 initBannerVideoSize('.video-container .poster img');
