@@ -30,6 +30,17 @@ url("assets/worthwhile-webfont.eot");
     left: 30%;
     top: 30%;
 }
+.title2{
+    display: none;
+    font-family: 'myFancyFont', Times, serif; 
+    background-color: rgb(255, 255, 255, 0);
+    position: absolute;
+    margin: 20px;
+    color: white;
+    z-index: 200;
+    left: 20%;
+    top: 20%;   
+}
 h1{
     font-family: 'myFancyFont';
     padding: 20px;
@@ -198,3 +209,10 @@ footer{
     width: 100%;
     z-index: 300;
 }
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+    .title2{
+        display: inline;
+    }
+    }
