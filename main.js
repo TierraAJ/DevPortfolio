@@ -1,4 +1,8 @@
-  // jQuery is required to run this code
+$( window ).on( "load", function() {
+    $(".preloader-wrapper").fadeOut("slow");
+});
+
+// jQuery is required to run this code
 $( document ).ready(function() {
 // $(".scrollspy").scrollSpy();
 $(".scrollspy").scrollSpy({

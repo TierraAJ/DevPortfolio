@@ -7,10 +7,18 @@ font-family: myFancyFont;
 src: url("assets/Worthwhile.otf"),
 url("assets/worthwhile-webfont.eot");
 }
-.brand-logo{
-
+.preloader-wrapper{
+    position: fixed !important;
+    top: 100px;
+    left: 50%;
+    margin-left: -32px; 
 }
-
+/* body{
+    visibility: hidden;
+}
+footer{
+    visibility: hidden;
+} */
 .logo-img1{
     height: 50px;
     width:100px;
